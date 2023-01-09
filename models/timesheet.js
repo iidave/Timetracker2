@@ -6,15 +6,14 @@ const TimesheetSchema = new mongoose.Schema({
     ref: 'User',
     required: true,
   },
-
-  createdAt: {
-    type: Date,
-    default: Date.now,
-  },
   task: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Task',
     required: true,
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now,
   },
   //Add grandtotal, etc
 });
