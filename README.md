@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Timetracker2
 Timetracker v2 - MongoDB/Express Back-end – React Node Front-end
 by Dave Winfield
@@ -45,3 +46,7 @@ Create React App that allows an employee to punch into and out of a task for a c
 
 - Save reports
 - Archive data
+=======
+# BT-DevCamper-API
+Brad Traversy API class creating a database API for a fictional Bootcamp Website
+>>>>>>> 08d65e93e68dcdae160dd338f0ac917a77a8d52b
